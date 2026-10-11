@@ -1,0 +1,503 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Créer `lib/config/env.ts` — validation zod des variables d'environnement au démarrage": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661809990
+      },
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661828291
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791688877767
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791688881063
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689689598
+      }
+    ],
+    "1.3 Créer `.env.example` et mettre à jour `.gitignore`": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661810345
+      },
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661836882
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791688859326
+      }
+    ],
+    "4. Créer le client Supabase et les types de base de données": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661810634
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689756492
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690265740
+      }
+    ],
+    "6. Créer le client LLM RodiumAI (chat + vision)": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661810760
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690284269
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690768371
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690771988
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691220888
+      }
+    ],
+    "7. Checkpoint — Socle technique opérationnel": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661810907
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691225116
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691658092
+      }
+    ],
+    "11. Checkpoint — Bot Telegram opérationnel": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811025
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691674639
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692187140
+      }
+    ],
+    "15. Créer l'étape Inngest `analyze-logo` et persister le BrandProfile": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811146
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692198434
+      }
+    ],
+    "18. Créer l'étape Inngest `brand-strategy` et câbler la planification des assets": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811248
+      }
+    ],
+    "19. Checkpoint — Analyse et charte opérationnels": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811373
+      }
+    ],
+    "20. Créer la configuration des supports et les templates": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811494
+      }
+    ],
+    "22. Implémenter le rendu texte via satori et le compositeur principal": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811639
+      }
+    ],
+    "24. Checkpoint — Composition MVP opérationnelle": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661811861
+      }
+    ],
+    "26. Implémenter le contrôle qualité par vision IA (optionnel)": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812020
+      }
+    ],
+    "28. Checkpoint — Contrôle qualité opérationnel": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812145
+      }
+    ],
+    "31. Créer l'étape Inngest `brandbook` et câbler le pipeline complet": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812251
+      }
+    ],
+    "32. Checkpoint — Pipeline complet de bout en bout": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812373
+      }
+    ],
+    "37. Checkpoint — Robustesse et coûts opérationnels": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812484
+      }
+    ],
+    "39. Documenter la limitation des mockups dans le README du ZIP": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812600
+      }
+    ],
+    "40. Checkpoint — Mockups opérationnels": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812742
+      }
+    ],
+    "41. Rédiger le README d'installation complet": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812851
+      }
+    ],
+    "42. Checkpoint final — Documentation complète": [
+      {
+        "executionId": "6be0dd55-9778-46bc-bf14-c438f1cfb111",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791661812990
+      }
+    ],
+    "1. Initialiser le projet Next.js TypeScript avec lint, tests et configuration de base": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689689833
+      }
+    ],
+    "2. Créer le logger structuré JSON sans secrets": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689716236
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689752728
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690258847
+      }
+    ],
+    "3. Créer le schéma Supabase par migrations": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689716669
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689759728
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690263530
+      }
+    ],
+    "5. Créer la couche `ImageProvider` (abstraction RodiumAI images)": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689717273
+      },
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690280825
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690761217
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791690764765
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691220425
+      }
+    ],
+    "8. Créer le webhook Telegram avec autorisation et déduplication": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689724343
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691225448
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691660046
+      }
+    ],
+    "9. Implémenter les commandes Telegram et la machine à états du projet": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689725233
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691226012
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691664234
+      }
+    ],
+    "10. Implémenter le parcours conversationnel `/newbrand` et la reprise d'état": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689725329
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691678208
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692186807
+      }
+    ],
+    "12. Implémenter la validation du fichier logo": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689725909
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691676301
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692187635
+      }
+    ],
+    "13. Implémenter l'analyse déterministe du logo avec sharp": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689726223
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791691679628
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692187991
+      }
+    ],
+    "14. Implémenter l'interprétation sémantique du logo via vision RodiumAI": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689729325
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692197752
+      }
+    ],
+    "16. Implémenter la génération de la charte graphique via LLM": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689729700
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692198836
+      }
+    ],
+    "17. Implémenter les sérialiseurs/désérialiseurs JSON avec round-trip": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689730471
+      },
+      {
+        "executionId": "4f2f5967-0b0c-4309-ad8e-d6b2e5864d58",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791692199330
+      }
+    ],
+    "21. Implémenter le module de pose du logo avec vérification de contraste": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689731107
+      }
+    ],
+    "23. Créer les étapes Inngest de génération IA et de composition": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689731513
+      }
+    ],
+    "25. Implémenter le contrôle qualité déterministe": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689734844
+      }
+    ],
+    "27. Implémenter la correction ciblée et l'étape Inngest de révision": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689735160
+      }
+    ],
+    "29. Implémenter le générateur de PDF avec `@react-pdf/renderer`": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689735812
+      }
+    ],
+    "30. Implémenter le constructeur de ZIP et la livraison Telegram": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689736263
+      }
+    ],
+    "33. Implémenter le suivi des coûts et les plafonds de dépense": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689736744
+      }
+    ],
+    "34. Implémenter le backoff exponentiel global et la reprise Inngest": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689740662
+      }
+    ],
+    "35. Implémenter le nettoyeur de fichiers expirés (cron quotidien)": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689741409
+      }
+    ],
+    "36. Implémenter les commandes d'administration pour la reprise manuelle": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689741764
+      }
+    ],
+    "38. Implémenter la génération de mockups (4 catégories)": [
+      {
+        "executionId": "a1fb3b52-cc85-4071-be77-83ff8ccf9708",
+        "chatSessionId": "sess_b5c6fee7-351c-4540-b143-fb15e7a0fa3f",
+        "timestamp": 1791689742158
+      }
+    ]
+  }
+}
