@@ -13,6 +13,7 @@ import { brandbookJob } from "@/jobs/brandbook";
 import { exportZipJob } from "@/jobs/export-zip";
 import { deliverJob } from "@/jobs/deliver";
 import { cleanupJob } from "@/jobs/cleanup";
+import { telegramHandlerJob } from "@/jobs/telegram-handler";
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
@@ -29,5 +30,6 @@ export const { GET, POST, PUT } = serve({
     exportZipJob,
     deliverJob,
     cleanupJob,
+    telegramHandlerJob,
   ],
 });
